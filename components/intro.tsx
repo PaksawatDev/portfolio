@@ -28,7 +28,7 @@ export default function Intro() {
             height="192"
             quality="95"
             priority={true}
-            className="h-32 w-32 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
+            className="h-32 w-32 rounded-full border-[0.35rem] border-white object-cover shadow-xl dark:border-gray-900"
           />
         </motion.div>
       </div>
@@ -55,7 +55,7 @@ export default function Intro() {
         <a
           target="_blank"
           href="https://www.paksaweb.dk/"
-          className="underline text-blue-950 ml-3 hover:text-cyan-900"
+          className="underline text-blue-950 ml-3 hover:text-cyan-900 dark:text-cyan-600"
         >
           Check it out!
         </a>
@@ -74,7 +74,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition dark:bg-slate-800"
           href="/CV_David_Paksawat.pdf"
           download
         >
@@ -83,15 +83,15 @@ export default function Intro() {
         </a>
         <a
           target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-110  active:scale-105 transition"
-          href=""
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-110  active:scale-105 transition dark:bg-gray-700 dark:text-white"
+          href="https://github.com/PaksawatDev?tab=repositories"
         >
           <BsLinkedin />
         </a>
         <a
           target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-110  active:scale-105 transition"
-          href=""
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-110  active:scale-105 transition dark:bg-gray-700 dark:text-white"
+          href="https://www.linkedin.com/in/david-paksawat-5698a5b9/"
         >
           <BsGithub />
         </a>

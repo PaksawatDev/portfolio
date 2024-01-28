@@ -20,7 +20,7 @@ export default function About() {
 
       <h3 className="font-bold text-4xl">Let&#39;s work together!</h3>
       <p className="mb-8">
-        I&#39;m looking for new adventures, so let&#39;s talk or grab a coffee!
+        I&#39;m looking for new adventures, so let&#39;s grab a coffee and talk!
       </p>
       <div className="flex flex-wrap gap-16 justify-center">
         <div>
