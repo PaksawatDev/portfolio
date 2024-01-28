@@ -25,7 +25,7 @@ export default function About() {
       <div className="flex flex-wrap gap-16 justify-center">
         <div>
           <p className="font-bold">Telefon</p>
-          <a className="underline text-cyan-500" href="tel:42770526">
+          <a className="underline text-cyan-500" href="tel:+4542770526">
             +(45) 42770526
           </a>
         </div>
